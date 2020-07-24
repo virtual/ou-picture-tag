@@ -17,3 +17,22 @@ This example uses the following image size set with "crop" setting (note: you ca
 | Medium | `-md`    | 800   | 1200   |
 | Large  | `-lg`    | 768   | 480    |
 | XL     | `-xl`    | 480   | 300    |
+
+## Usage
+
+Given the image within the snippet:
+
+```html
+<img src="/_resources/images/hero/students-under-trees-sm.jpg" alt="desc" width="480" height="300">
+```
+
+Outputs the following HTML:
+
+```html
+<picture>
+ <source srcset="/_resources/images/hero/students-under-trees-xl.jpg" media="(min-width: 992px)">
+ <source srcset="/_resources/images/hero/students-under-trees-lg.jpg" media="(min-width: 768px)">
+ <source srcset="/_resources/images/hero/students-under-trees-md.jpg" media="(min-width: 480px)">
+ <img src="/_resources/images/hero/students-under-trees-sm.jpg" alt="desc" width="480" height="300">
+</picture>
+```
