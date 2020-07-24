@@ -11,12 +11,12 @@
 
 This example uses the following image size set with "crop" setting (note: you can use different resolutions):
 
-| Size   | Suffix | Width | Height |
-|--------|--------|-------|--------|
-| Small  | `-sm`    | 1200  | 1200   |
-| Medium | `-md`    | 800   | 1200   |
-| Large  | `-lg`    | 768   | 480    |
-| XL     | `-xl`    | 480   | 300    |
+| Size   | Suffix | Width  | Height |
+|--------|--------|--------|--------|
+| Small  | `-sm`  | 480    | 300    |
+| Medium | `-md`  | 768    | 480    |
+| Large  | `-lg`  | 800    | 1200   |
+| XL     | `-xl`  | 1200   | 1200   |
 
 ## Usage
 
